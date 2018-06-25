@@ -1,6 +1,7 @@
 // Core
 import React from 'react';
 
+// Instruments
 import classnames from 'classnames';
 
 // генерує масив із елементами від 1 до 10
