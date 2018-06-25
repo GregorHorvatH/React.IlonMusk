@@ -6,7 +6,10 @@ import ReactDOM from 'react-dom';
 import './theme/init';
 
 // Components
-import Resume from './pages/Resume';
-
+import Resume from './containers/Resume';
 
 ReactDOM.render(<Resume />, document.getElementById('app'));
+
+// папки
+// containers - компоненти які мають доступ до даних (за звичай через redux, зараз це .json)
+// components - компоненти які тільки відображають дані але самі їх отримують через props
