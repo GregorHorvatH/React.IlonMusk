@@ -7,7 +7,7 @@ import SectionBlock from '../SectionBlock';
 
 // props як вхідний параметер
 // прямо в скобках деструктуризував props і дістав із нього data
-const RowBottom = ({ data }) => (
+const Row = ({ data }) => (
     <div className = 'row'>
         {
             data.map((d, index) => (
@@ -26,4 +26,4 @@ const RowBottom = ({ data }) => (
     </div>
 );
 
-export default RowBottom;
+export default Row;
